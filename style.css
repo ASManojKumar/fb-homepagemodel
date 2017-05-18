@@ -1,0 +1,126 @@
+body, .user-top {
+    background-color: #ececec;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.list-name:hover {
+    color:red;
+}
+
+.top-banner {
+    background-color: #4a70bf;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    z-index: 10;
+}
+
+.user-page {
+    padding: 65px 20px;
+    overflow-x: hidden;
+}
+
+.user-page .section1, .user-page .section3, .user-page .section4 {
+    float: left;
+    width: 18%;
+    margin: 0 0.5%;
+    padding: 0 0.5%;
+    position: relative;
+    height: 600px;
+}
+
+.user-page .section1 .section1-fixed {
+    background-color: #fff;
+    position: fixed;
+    width: 16%;
+    padding: 0 1%;
+    border-radius: 10px;
+    height: 600px;
+}
+
+.user-page .section2 {
+    float: left;
+    width: 38%;
+    margin: 0 0.5%;
+    padding: 0 0.5%;
+    border-radius: 10px;
+}
+
+.user-page .section2 .user-container {
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: solid 1px #ccc;
+    margin: 0 0 5px;
+}
+
+.user-container-img, .user-container-right-img {
+    float: left;
+    margin:10px 5px;
+    width: 9%;
+}
+
+.user-page .section3-fixed {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    word-wrap: break-word;
+}
+
+.user-page .section3-fixed h5 {
+    margin: 0px;
+}
+
+/*.user-page .section3 {
+    float: left;
+    width: 18%;
+    margin: 0 0.5%;
+    background-color: #fff;
+    padding: 0 0.5%;
+    border-radius: 10px;
+}*/
+
+.user-page .section4 {
+    height: 100%;
+    position: fixed;
+    right: 0;
+}
+
+.section4-fixed {
+    position: relative;
+    height: 50%;
+    overflow-y: scroll;
+    margin-right: -51px;
+    padding-right: 30px;
+    overflow-x: hidden;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.user-container-right {
+    padding: 0 6px;
+    border-bottom: solid 1px #ccc;
+}
+
+.user-container-content, .user-container-right-content {
+    float: right;
+    width: 84%;
+}
+
+.user-page:after, .user-page .section2 .user-container:after, .user-container-right:after {
+    clear: both;
+    display: block;
+    content: '';
+}
+
+.infinite-scroll {
+    padding: 20px 15px;
+}
