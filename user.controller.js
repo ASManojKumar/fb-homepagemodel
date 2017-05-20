@@ -175,7 +175,6 @@ angular.module('myApp').controller('userController', ['$scope',
             }, {
                 "text": "No fabric travels better from cool to warm weather than linen. And from shoulders to overhead compartments for that matter! Long transits call for this top pick from ARROW: a serene blue, patterned linen blazer. Upgrade your travel style with a pristine polo and sleek chinos and look fresh from take-off to touch down.",
                 "title": "Title"
-
             }
         ]
     }

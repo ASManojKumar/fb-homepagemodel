@@ -94,20 +94,34 @@ a:hover {
     right: 0;
     border-left: 1px solid #ccc;
     margin-top: -15px;
+    padding: 0px;
+    margin-left: 1%;
+    margin-right: 0%;
+    line-height: 16px;
 }
 
 .section4-fixed {
     position: relative;
     height: 50%;
     overflow-y: scroll;
-    margin-right: -51px;
+    margin-right: -49px;
     padding-right: 30px;
     overflow-x: hidden;
+    border-bottom: solid 1px #ccc;
+}
+
+.section4-bottom {
+    height: 50%;
+    overflow-y: scroll;
+    margin-right: -49px;
+    padding-right: 30px;
+
 }
 
 .user-container-right {
-    padding: 0 6px;
     border-bottom: solid 1px #ccc;
+    width: 92%;
+    margin: 0px auto;
 }
 
 .user-container-content, .user-container-right-content {
