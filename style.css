@@ -38,12 +38,12 @@ a:hover {
 }
 
 .user-page .section1 .section1-fixed {
-    background-color: #fff;
+    /*background-color: #fff;*/
     position: fixed;
     width: 16%;
     padding: 0 1%;
     border-radius: 10px;
-    height: 600px;
+    /*height: 600px;*/
 }
 
 .user-page .section2 {
@@ -92,6 +92,8 @@ a:hover {
     height: 100%;
     position: fixed;
     right: 0;
+    border-left: 1px solid #ccc;
+    margin-top: -15px;
 }
 
 .section4-fixed {
@@ -101,8 +103,6 @@ a:hover {
     margin-right: -51px;
     padding-right: 30px;
     overflow-x: hidden;
-    border-left: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
 }
 
 .user-container-right {
@@ -113,6 +113,21 @@ a:hover {
 .user-container-content, .user-container-right-content {
     float: right;
     width: 84%;
+}
+
+.user-container-right-content h4, .user-container-right h4 {
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+.user-container-right-content p {
+    font-size: 12px;
+}
+
+.user-container-right-img-below {
+    margin: 0px 8px 8px;
+    width: 9%;
+    float: left;
 }
 
 .user-page:after, .user-page .section2 .user-container:after, .user-container-right:after {

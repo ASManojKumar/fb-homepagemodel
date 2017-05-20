@@ -1,8 +1,8 @@
 'use strict'
 var app = angular.module('myApp', ['infinite-scroll']);
 
-angular.module('myApp').controller('userController', ['$scope', 'userService',
-    function ($scope, userService) {
+angular.module('myApp').controller('userController', ['$scope', 
+    function ($scope) {
 
         var self = this;
 

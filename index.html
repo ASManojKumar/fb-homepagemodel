@@ -55,6 +55,7 @@
                 </div>
                 <div>
                     <div ng-repeat="user in user.users.slice(0, 12) track by $index" class="user-container-right">
+                        <img ng-src="{{user.img}}" class="user-container-right-img-below">
                         <h4>{{user.first_name}} {{user.last_name}}</h4>
                     </div>
                 </div>
